@@ -1,0 +1,34 @@
+#container {
+  display: flex;
+  height: 85vh;
+}
+
+header {
+  background-color: #111023;
+  color: white;
+  height: 15vh;
+}
+
+article {
+  flex-grow: 3;
+}
+aside {
+  background-color: #320388;
+  color: white;
+  flex-grow: 1;
+}
+nav {
+  background-color: #c22177;
+  color: white;
+  flex-grow: 1;
+}
+footer {
+  background-color: #111023;
+  color: white;
+  height: 15vh;
+}
+
+h3 {
+  margin: 0;
+  padding: 20px;
+}

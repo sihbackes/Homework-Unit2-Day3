@@ -1,0 +1,39 @@
+#main-container {
+  display: flex;
+  width: 100%;
+}
+
+header {
+  background-color: #111023;
+  color: white;
+  height: 15vh;
+  width: 88vw;
+}
+
+article {
+  flex-grow: 3;
+  height: 70vh;
+}
+aside {
+  background-color: #320388;
+  color: white;
+  flex-grow: 1;
+}
+
+nav {
+  background-color: #c22177;
+  color: white;
+  height: 100vh;
+  width: 12vw;
+}
+footer {
+  background-color: #111023;
+  color: white;
+  height: 15vh;
+  width: 88vw;
+}
+
+h3 {
+  margin: 0;
+  padding: 20px;
+}
